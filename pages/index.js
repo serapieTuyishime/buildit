@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Button from "../components/Button";
 import Iconcard from "../components/Iconcard";
 import Contactcard from "../components/Contactcard";
@@ -44,7 +45,7 @@ export default function Homepage() {
                             <div className="w-5/12 h-full">
                                 <img
                                     src="./img2.png"
-                                    className=" object-contain w-full h-full"
+                                    className=" object-contain w-full h-full" alt=""
                                 />
                             </div>
                             <div className="w-3/12 h-2/5">

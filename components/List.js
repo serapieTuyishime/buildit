@@ -1,9 +1,9 @@
-export default function List({ list }) {
+export default function List({ listp }) {
     return (
         <ul className="grid content-center gap-2 text-base">
-            {list.map((item, index) => {
+            {listp.map((item, index) => {
                 return (
-                    <li className="capitalize" key={index} id={index}>
+                    <li key={index} className="capitalize" >
                         {item}
                     </li>
                 );

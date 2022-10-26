@@ -8,16 +8,16 @@ export default function Footer() {
                 <label className="">Development company, 2022</label>
                 <label className="self-end">Site design – ⏰ Alarm</label>
             </div>
-            <List list={["Service 1", "Service 2", "Service 3", "Service 4"]} />
-            <List list={["About us", "Services", "Projects", "Contact"]} />
+            <List listp={["Service 1", "Service 2", "Service 3", "Service 4"]} />
+            <List listp={["About us", "Services", "Projects", "Contact"]} />
             <div className="grid gap-8">
                 <List
-                    list={[
+                    listp={[
                         "Get in touch",
                         "60 Manor Station St. Fairport, NY 14450",
                     ]}
                 />
-                <List list={["708-790-0000", "sales@buildit.site"]} />
+                <List listp={["708-790-0000", "sales@buildit.site"]} />
             </div>
         </div>
     );
