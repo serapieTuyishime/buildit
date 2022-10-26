@@ -8,9 +8,9 @@ export default function Navigation() {
             <div className="flex pt-8 px-24 flex-row items-center justify-between w-full">
                 <Mainlogo />
                 <ul className="flex items-center justify-center gap-6 text-primary text-base capitalize">
-                    <Link href="/about">
+                    <Link href="/">
                         <a>
-                            <li>About</li>
+                            <li>Home</li>
                         </a>
                     </Link>
                     <Link href="/about">
@@ -18,14 +18,19 @@ export default function Navigation() {
                             <li>About</li>
                         </a>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/services">
                         <a>
-                            <li>About</li>
+                            <li>Services</li>
                         </a>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/projects">
                         <a>
-                            <li>About</li>
+                            <li>Projects</li>
+                        </a>
+                    </Link>
+                    <Link href="/contact">
+                        <a>
+                            <li>Contact</li>
                         </a>
                     </Link>
                 </ul>
